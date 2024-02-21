@@ -1,15 +1,6 @@
 function alterarStatus(numJogo){
 
-    if(numJogo == 1){
-        alterarImagemBotao("game-1");
-    }
-
-    else if(numJogo == 2){
-        alterarImagemBotao("game-2");
-    }
-    else{
-        alterarImagemBotao("game-3");
-    }
+    alterarImagemBotao("game-" + numJogo);
 
 }
 
